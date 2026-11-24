@@ -1,0 +1,17 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "$OPENROUTER_API_KEY",
+      "modelOverrides": {
+        "deepseek/deepseek-v4.1-flash": {
+          "compat": {
+            "openRouterRouting": {
+              "only": ["alibaba"],
+              "allow_fallbacks": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
